@@ -1,0 +1,36 @@
+body{
+    background-color: rgb(159, 214, 240);
+}
+.login{
+    background-color: rgba(0, 0, 0, 0.377); 
+    display: inline-block;
+    height: 300px;
+    width: 300px;
+    transform: translate(450px,100px);
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+.login input{
+    width: 80%;
+    padding: 10px;
+    border: solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.update{
+    background-color: rgb(255, 189, 127);
+    border-radius: 5px;
+}
+.select{
+    background-color: rgb(16, 230, 26);
+    border-radius: 5px;
+}
+.delete{
+    background-color: rgb(248, 41, 14);
+    border-radius: 5px;
+}
+.insert{
+    background-color: rgb(9, 238, 131);
+    border-radius: 5px;
+}

@@ -1,0 +1,26 @@
+
+.container{
+     border-radius: 20px;
+     -webkit-box-shadow: 6px 1px 18px 5px rgba(0,0,0,0.29);
+     box-shadow: 6px 1px 18px 5px rgba(0,0,0,0.29);
+    }
+.br{ border-left:solid #00C1FE  8px;
+}
+.bg-primary{ background-image: linear-gradient(to left top, #e8e6aa, #a0dea9, #36d1c5, #00bde9, #0e9ef7);}
+.btn{ color: #00C1FE;}
+.col-2{  background-color: #FAFFC1;
+ }
+ .hover:hover{background-color: #00C1FE;} 
+ 
+
+
+   
+   
+
+
+   
+
+
+  
+
+   
