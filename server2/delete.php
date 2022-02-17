@@ -1,5 +1,8 @@
+              
+            
             <?php 
-
+                
+                 
             $connect=mysqli_connect("localhost","root","","e_classe_db");  
            
                 $query="DELETE FROM `student` WHERE id='".$_GET['id']."'";        

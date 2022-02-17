@@ -1,3 +1,11 @@
+
+                    <?php
+                        session_start();
+                        if(empty($_SESSION['Email'])){  
+                                header("Location:index.php"); 
+                            } 
+
+                    ?>  
 <!DOCTYPE html> 
 <html lang="en">
 <head>
@@ -12,6 +20,10 @@
 <body>
     <div class="container-fluide" style="width: 100%;"> 
                     <?php 
+                        
+                       if( time()-$_SESSION['time']>86400){ 
+                           header("Location:index.php");
+                       } 
                      include ('header.html');
                     
                     ?> 

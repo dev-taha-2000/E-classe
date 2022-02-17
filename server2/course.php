@@ -1,3 +1,13 @@
+                   <?php  
+                        session_start();
+                        if(empty($_SESSION['Email'])){  
+                                header("Location:index.php");  
+                            } 
+                            if( time()-$_SESSION['time']>86400){  
+                                header("Location:index.php");
+                            } 
+                          include ('header.html');
+                    ?>  
 <!DOCTYPE html> 
 <html lang="en">
 <head>

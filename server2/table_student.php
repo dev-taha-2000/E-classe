@@ -15,6 +15,8 @@
                            $connect=mysqli_connect("localhost","root","","e_classe_db");                            
                            $sql = "SELECT *FROM `student`";   
                            $result=mysqli_query( $connect,$sql);  
+
+                     
                            
                  ?>  
                                       <table class="table">
@@ -41,10 +43,13 @@
                                                 <td ><?php echo $student['Enroll_number'];  ?></td>
                                                 <td ><?php echo $student['Date_of_admission'];  ?></td>  
                                                 <td>
-                                                <div class="p-2">
-                                                <a href="update_student.php?id=<?php echo $id?>"><img src="svg/modifier.svg" alt=""></a>     
-                                                <a href="delete.php?id=<?php echo $id?>"><img src="svg/suprimer.svg" alt="" name="suprimer"></a>     
-                                                </div>
+                                                    <form method="POST">  
+                                                    <div class="p-2">
+                                                        <a href="update_student.php?id=<?php echo $id?>"><img src="svg/modifier.svg" alt=""></a>     
+                                                        <a href="delete.php?id=<?php echo $id?>"><img src="svg/suprimer.svg" alt="" name="suprimer"></a>     
+                                                        </div>
+                                                    </form>
+                                               
                                                 </td>
                                                 </tr> 
                                               
